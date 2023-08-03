@@ -1,0 +1,1 @@
+export {default as CouponService} from './coupon.service'

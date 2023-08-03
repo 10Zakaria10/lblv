@@ -1,0 +1,18 @@
+import type { NextPage } from "~types/next";
+import {{pascalCase name}} from "~containers/{{camelCase name}}"
+import { LayoutType } from "~layouts/config";
+import { NextSeo } from "next-seo";
+
+const {{pascalCase name}}Page: NextPage = () => {
+  return (
+     <>
+      <NextSeo title="LabelVie - {{pascalCase name}}" />
+      <{{pascalCase name}} />
+    </>
+
+  );
+};
+{{pascalCase name}}Page.layout = LayoutType.Blank;
+
+
+export default {{pascalCase name}}Page;

@@ -1,0 +1,1 @@
+export const IS_AUTHENTICATED_COOKIE_NAME = "I_ATCD";
